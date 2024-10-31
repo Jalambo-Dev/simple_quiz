@@ -13,7 +13,8 @@ It is designed to be lightweight, user-friendly, and easily extensible for diffe
 
 
 ## Screenshots
-![secreens simple quiz](https://github.com/user-attachments/assets/0254bfc3-596c-4352-ae08-4770d6835b78)
+![secreens simple quiz](https://github.com/user-attachments/assets/840bf83a-7d80-445f-acb2-271a57eddec8)
+
 
 
 
