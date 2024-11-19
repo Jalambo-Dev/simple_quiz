@@ -93,14 +93,22 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: true,
-      appBar: AppBar(
-        title: const Text('simple FLUTTER quiz'),
-      ),
+      // appBar: AppBar(
+      //   title: const Text('simple FLUTTER quiz'),
+      // ),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 18.0),
           child: Column(
             children: [
+              Padding(
+                padding: const EdgeInsets.only(bottom: 18),
+                child: Image.asset(
+                  'assets/images/flutter_quiz_logo.png',
+                  height: 50,
+                  alignment: AlignmentDirectional.topStart,
+                ),
+              ),
               // Scrollable content
               Expanded(
                 child: SingleChildScrollView(
@@ -114,9 +122,15 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Text(
-                              'question: ${_currentQuestion.id}',
-                              style: Theme.of(context).textTheme.headlineSmall,
+                            Row(
+                              children: [
+                                const Icon(Icons.question_mark),
+                                Text(
+                                  'question ${_currentQuestion.id}',
+                                  style:
+                                      Theme.of(context).textTheme.headlineSmall,
+                                ),
+                              ],
                             ),
                             Row(
                               children: [

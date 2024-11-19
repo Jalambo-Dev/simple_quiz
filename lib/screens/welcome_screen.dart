@@ -45,7 +45,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          "Let's Play Quiz!\n",
+                          "Let's Play Flutter Quiz!\n",
                           style: Theme.of(context)
                               .textTheme
                               .displayMedium
