@@ -13,8 +13,7 @@ It is designed to be lightweight, user-friendly, and easily extensible for diffe
 
 
 ## Screenshots
-![Group 1](https://github.com/user-attachments/assets/8beb49a9-00d4-4ec5-8da1-abb09cedf708)
-
+![flutter_quiz_poster](https://github.com/user-attachments/assets/6b82d8d6-0a67-4608-ad31-e41128b9150d)
 
 
 
